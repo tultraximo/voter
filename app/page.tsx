@@ -5,12 +5,13 @@ import Stack from "@/components/stack";
 import Card from "@/components/card";
 import Statement from "@/components/statement";
 
+
 function VoteImage(){
   return (
     <div className="relative flex place-items-center">
     <Image
       className="relative"
-      src="/vote.png"
+      src="/vote_transparent.png"
       alt="Next.js Logo"
       width={360}
       height={37}
@@ -21,12 +22,19 @@ function VoteImage(){
 }
 
 export default function Home() {
+
+  const description = "23 MILLION"
+  const title = "THE NUMBER OF COLLEGE-AGE POTENTIAL US VOTERS"
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between pt-24 px-12 bg-repeat-spaced" style={{backgroundImage: 'url("/")'}}>
+          {/* <div className="mb-5 bg-gradient-to-br from-gray-900 via-gray-700 to-gray-800 bg-clip-text text-transparent font-hammer text-5xl font-bold  [text-wrap:balance] sm:text-7xl">
+          {description}
+        </div> */}
       <Header />
+      <VoteImage />
       <Card />
       <Statement />
-      <VoteImage />
       <Gallery />
       <Stack />
 

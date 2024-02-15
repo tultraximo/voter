@@ -3,12 +3,12 @@ import Image from "next/image"
 export default function Statement(){
   return (
   <div
-      className="relative w-128 overflow-hidden rounded border-gray-100 border-solid
-       bg-gray-200 shadow-lg
-        m-4"
+      className="relative w-full overflow-hidden rounded border-gray-100 border-solid
+       bg-gray-200 shadow-lg font-medium
+        m-4 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent"
     >
-      <div className="p-6 mx-auto max-w-lg text-6xl text-center">
-      There are 23 million voting-age university students in the US
+      <div className="p-6 mx-auto text-5xl text-center">
+      The 2020 election came down to fewer than 10k votes in several key states.
   </div>
   </div>)
 }
