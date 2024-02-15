@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Noto_Serif } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const noto_serif = Noto_Serif({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-noto-serif',
+})
 
 export const metadata: Metadata = {
   title: "Empower Your Students: University Vote T-Shirts & Hats (Wholesale)",
@@ -16,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${noto_serif.variable}`}>{children}</body>
     </html>
   );
 }

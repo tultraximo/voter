@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Statement(){
   return (
   <div
-      className="relative w-full overflow-hidden rounded border-gray-100 border-solid
+      className="relative max-w-5xl overflow-hidden rounded border-gray-100 border-solid
        bg-gray-200 shadow-lg font-medium
         m-4 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent"
     >

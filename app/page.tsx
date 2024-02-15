@@ -4,11 +4,12 @@ import Gallery from "@/components/gallery";
 import Stack from "@/components/stack";
 import Card from "@/components/card";
 import Statement from "@/components/statement";
+import AboutUs from "@/components/about_us";
 
 
 function VoteImage(){
   return (
-    <div className="relative flex place-items-center">
+    <div className="pt-5 relative flex place-items-center">
     <Image
       className="relative"
       src="/vote_transparent.png"
@@ -32,11 +33,14 @@ export default function Home() {
           {description}
         </div> */}
       <Header />
+
       <VoteImage />
-      <Card />
       <Statement />
+
+      <Card />
       <Gallery />
       <Stack />
+      <AboutUs />
 
     </main>
   );
