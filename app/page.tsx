@@ -27,7 +27,7 @@ export default function Home() {
   const title = "THE NUMBER OF COLLEGE-AGE POTENTIAL US VOTERS"
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between pt-24 px-12 bg-repeat-spaced" style={{backgroundImage: 'url("/")'}}>
+    <main className="flex min-h-screen flex-col items-center justify-between pt-24 px-12 bg-repeat-spaced bg-gray-200" style={{backgroundImage: 'url("/")'}}>
           {/* <div className="mb-5 bg-gradient-to-br from-gray-900 via-gray-700 to-gray-800 bg-clip-text text-transparent font-hammer text-5xl font-bold  [text-wrap:balance] sm:text-7xl">
           {description}
         </div> */}

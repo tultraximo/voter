@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Card() {
   const title = "23 MILLION"
-  const description = "THE NUMBER OF US COLLEGE-AGE POTENTIAL VOTERS"
+  const description = "NUMBER OF US COLLEGE-AGE VOTERS"
   return (
     <div
       className="relative w-128 overflow-hidden rounded border-gray-100 border-solid
@@ -15,7 +15,7 @@ export default function Card() {
         <div className="m-4 mb-5 bg-gradient-to-br from-gray-900 via-gray-900 to-gray-900 bg-clip-text text-transparent text-6xl sm:text-8xl font-bold  [text-wrap:balance]">
           {title}
         </div>
-        <div className="rounded shadow-lg text-4xl pb-5 mx-12 px-2 font-display
+        <div className="rounded shadow-lg text-3xl sm:text-4xl pb-5 mx-12 px-2 font-display
           font-medium text-gray-800 bg-gray-200 [text-wrap:balance]">
             {description}</div>
       </div>
