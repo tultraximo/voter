@@ -39,7 +39,7 @@ export default function Home() {
 
       <Card />
       <Gallery />
-      <Stack />
+      {/* <Stack /> */}
       <AboutUs />
 
     </main>
